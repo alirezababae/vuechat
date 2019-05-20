@@ -1,14 +1,14 @@
 import {initializeApp} from 'firebase';
 
 const app = initializeApp({
-
-  apiKey: "AIzaSyCyS0900Tg1dpOeohnZ-jRY-X8qCzdMdNo",
-  authDomain: "firbasevue.firebaseapp.com",
-  databaseURL: "https://firbasevue.firebaseio.com",
+/* Go to the firebase.com site and create an account and get the following additional information */
+  apiKey: "",
+  authDomain: "",
+  databaseURL: "",
   projectId: "firbasevue",
-  storageBucket: "firbasevue.appspot.com",
-  messagingSenderId: "1041110601957",
-  appId: "1:1041110601957:web:84892b87b409f009"
+  storageBucket: "",
+  messagingSenderId: "",
+  appId: ""
 });
 
 export const db = app.database();
